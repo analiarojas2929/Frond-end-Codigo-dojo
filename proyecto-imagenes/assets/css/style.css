@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 20px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.image-container {
+    margin: 5px;
+    padding: 10px;
+}
+
+.section1 {
+    background-color: #FFD700;
+}
+
+.section2 {
+    background-color: #ADD8E6;
+}
+
+.section3 {
+    background-color: #FF6347;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 10px;
+    background-color: #90EE90;
+}
