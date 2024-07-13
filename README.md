@@ -13,7 +13,7 @@
 ## Ejercicios
 
 ### [Ejercicio 1 - Core (Formulario)](./core)
-Aprende a crear y estilizar formularios utilizando HTML y CSS.
+Aprende a crear y estilizar formularios utilizando HTML .
 
 ### [Ejercicio 2 - Modelos de Caja](./Modelos-de-Caja)
 Explora el modelo de caja en CSS y cómo manipular el diseño de elementos en una página web.
@@ -28,7 +28,7 @@ Crea una tarjeta de presentación personal con HTML y CSS.
 Diseña y desarrolla una página de perfil utilizando tus conocimientos de front-end.
 
 ### [Ejercicio 6 - Petlopedia](./Petlopedia)
-Un proyecto más avanzado donde crearás una enciclopedia para mascotas, aplicando todo lo aprendido.
+Un proyecto más avanzado donde crearás una enciclopedia para mascotas, aplicando todo lo aprendido, HTML, CSS Y JS.
 
 ## Instrucciones de Uso
 
