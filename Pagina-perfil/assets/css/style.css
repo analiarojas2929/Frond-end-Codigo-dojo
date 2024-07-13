@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav h1 {
+    margin: 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #f7a3c3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e01261;
+}
+
+main {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    width: 80%;
+}
+
+.profile {
+    margin-right: 20px;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.profile-card .header {
+    background-color: #f7a3c3;
+    height: 60px;
+}
+
+.profile-card .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 5px solid white;
+}
+
+.profile-card .container {
+    padding: 20px;
+}
+
+.profile-card h1 {
+    margin: 10px 0;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.profile-card p {
+    color: #777;
+    margin: 10px 0;
+}
+
+.profile-card a {
+    color: #f7a3c3;
+    text-decoration: none;
+}
+
+.education {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 2;
+}
+
+.education h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.educacion-parrafo {
+    margin: 0;
+}
+
+.educacion-parrafo .education-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #f7a3c3;
+    border-radius: 5px;
+}
+
+.educacion-parrafo p {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+aside {
+    flex: 1;
+}
+
+.conexion {
+    margin: 20px;
+    width: 80%;
+}
+
+.connection-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.connection-requests {
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.connections {
+    flex: 2;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.connection-requests h2,
+.connections h2 {
+    margin-bottom: 10px;
+}
+
+.request,
+.connection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.request img,
+.connection img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.request button {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.request button.accept {
+    color: green;
+}
+
+.request button.reject {
+    color: red;
+}
